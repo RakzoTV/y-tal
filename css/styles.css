@@ -1,0 +1,22 @@
+body{
+    background-color: brown;
+}
+
+.flex-container{
+    display: flex;
+    background-color: blueviolet;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+.flex-container>div{
+    background-color: aquamarine;
+    width: 100px;
+    line-height: 75px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
